@@ -1,3 +1,6 @@
+# Updating Login Page
+
+
 **login.html Page**
 
 (1) Include the following in <head>..</head> tag:
@@ -65,4 +68,4 @@
     }
     auth2.grantOfflineAccess().then(signInCallback);
   });
-</script># G-Signin-New-Policy
+</script>
