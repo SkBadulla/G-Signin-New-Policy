@@ -3,8 +3,9 @@
 
 **login.html Page**
 
-(1) Include the following in <head>..</head> tag:
+(1) Include the following in   ```<head>..</head>``` tag:
 
+```
 <meta name="google-signin-client_id" content="YOUR CLIENT ID HERE">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://apis.google.com/js/client:platform.js?onload=start" async defer></script>
@@ -17,11 +18,12 @@
     });
   }
 </script>
+```
 
 
 (2) In the <body> tag, add the below button and div
 
-
+```
 <div id="signinButton" style="padding: 5px;margin-top:10px;text-align: center;">
   <span class="g-signin2"
     data-scope="profile openid email"
@@ -35,10 +37,11 @@
 </div>   
 
 <div id="result"></div>
+```
 
 (3) Add the below script before the ending </body> tag
 
-
+```
 <script>
   $('#signinButton').click(function() {
     function signInCallback(authResult){
@@ -69,3 +72,4 @@
     auth2.grantOfflineAccess().then(signInCallback);
   });
 </script>
+```
