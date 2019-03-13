@@ -1,4 +1,4 @@
-# Updating Login Page
+# Updating Login.html
 
 
 **login.html Page**
@@ -74,4 +74,4 @@
 </script>
 ```
 
-(4) Finish! 
+(4) Save your Login.html! 
